@@ -3,25 +3,25 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-  return view('layouts.inicio');
+  return view('Layouts.inicio');
 });
 
 Route::get('/inicio', function () {
-  return view('layouts.inicio');
+  return view('Layouts.inicio');
 });
 
 Route::get('/cultura', function () {
-  return view('layouts.cultura');
+  return view('Layouts.cultura');
 });
 
 Route::get('/gastronomia', function () {
-  return view('layouts.gastronomia');
+  return view('Layouts.gastronomia');
 });
 
 Route::get('/turismo', function () {
-  return view('layouts.turismo');
+  return view('Layouts.turismo');
 });
 
 Route::get('/contacto', function () {
-  return view('layouts.contacto');
+  return view('Layouts.contacto');
 });
